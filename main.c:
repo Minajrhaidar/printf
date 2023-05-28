@@ -1,0 +1,4 @@
+n.c:40:19: error: unknown conversion type character ‘r’ in format [-Werror=format=]
+   40 | printf("Unknown:[%r]\n");
+      |                   ^
+cc1: all warnings being treated as errors

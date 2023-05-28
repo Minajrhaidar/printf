@@ -38,6 +38,7 @@ if (printed == -1)
 return (-1);
 printed_chars += printed;
 }
+_printf("Print a percent sign: %%\n");
 }
 print_buffer(buffer, &buff_ind);
 va_end(list);
